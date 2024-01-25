@@ -1,0 +1,54 @@
+ td,
+ th {
+     width: 80px;
+     height: 40px;
+     text-align: center;
+     border: 2px solid black;
+ }
+
+ iframe {
+     height: 500px;
+     width: 500px;
+     border: 10px solid gray;
+     border-radius: 10%;
+ }
+
+ .ifr {
+     color: brown;
+ }
+
+ .table {
+     color: brown;
+ }
+
+ .pg {
+     position: fixed;
+     background: #ffffff;
+     bottom: 95%;
+     right: 93%;
+ }
+
+ .pg2 {
+     position: fixed;
+     right: 86%;
+     bottom: 95%;
+     background: #ffffff;
+ }
+
+ .pg3 {
+     position: fixed;
+     right: 79%;
+     bottom: 95%;
+     background: #ffffff;
+ }
+
+ .main-header {
+     position: fixed;
+     text-align: center;
+     background-color: rgb(255, 255, 255);
+     color: rgb(255, 255, 255);
+     padding: 25px;
+     width: 20%;
+     bottom: 93%;
+     right: 79%;
+ }

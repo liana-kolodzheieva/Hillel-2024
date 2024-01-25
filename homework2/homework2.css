@@ -1,0 +1,11 @@
+.main-header {
+    text-align: center;
+    background-color: burlywood;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.main-footer {
+    text-align: center;
+    font-size: 18px;
+}
