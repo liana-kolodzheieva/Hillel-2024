@@ -25,19 +25,19 @@
      position: fixed;
      background: #ffffff;
      bottom: 95%;
-     right: 60%;
+     right: 93%;
  }
 
  .pg2 {
      position: fixed;
-     right: 50%;
+     right: 86%;
      bottom: 95%;
      background: #ffffff;
  }
 
  .pg3 {
      position: fixed;
-     right: 40%;
+     right: 79%;
      bottom: 95%;
      background: #ffffff;
  }
@@ -48,8 +48,7 @@
      background-color: rgb(255, 255, 255);
      color: rgb(255, 255, 255);
      padding: 25px;
-     width: 99%;
-     height: 90%;
+     width: 20%;
      bottom: 93%;
-     right: 0%;
+     right: 79%;
  }
