@@ -2,14 +2,14 @@
     border: 6px dotted darkmagenta;
     width: 400px;
     margin-left: 60vb;
-    padding: 8px;
+    padding: 10px;
 }
 
 #box2 {
     border: 6px double blue;
     width: 400px;
     margin-left: 60vb;
-    padding: 8px;
+    padding: 10px;
 }
 
 #box3 {
@@ -17,6 +17,6 @@
     width: 400px;
     margin-left: 60vb;
     border-style: outset;
-    padding: 8px;
+    padding: 10px;
 
 }
