@@ -1,0 +1,22 @@
+#box1 {
+    border: 6px dotted darkmagenta;
+    width: 400px;
+    margin-left: 60vb;
+    padding: 8px;
+}
+
+#box2 {
+    border: 6px double blue;
+    width: 400px;
+    margin-left: 60vb;
+    padding: 8px;
+}
+
+#box3 {
+    border: 6px #D968CA;
+    width: 400px;
+    margin-left: 60vb;
+    border-style: outset;
+    padding: 8px;
+
+}
