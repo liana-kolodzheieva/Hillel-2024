@@ -1,0 +1,134 @@
+/* less4 */
+.div1 {
+    width: 400px;
+    height: 300px;
+    margin: 12px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+/* .color-box {
+    background-color: coral;
+} */
+
+.image-box {
+    background-image: url(1700685201_flomaster-top-p-zelenaya-priroda-narisovannie-akvarelyu-kr-4.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 600px;
+
+    background-position: fixed;
+    background-attachment: scroll;
+}
+
+.div3 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+    padding: 16px;
+    border: 16px solid rgba(21, 34, 40, 0.868);
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    background: rgba(0, 170, 255, 0.66) center no-repeat border-box local url(watercolor-drawing-transparent-blue-freesia-flowers-isolated-on-white-background_252097-3.avif);
+
+}
+
+#border-box {
+    background-clip: border-box;
+}
+
+#padding-box {
+    background-clip: padding-box;
+}
+
+#content-box {
+    background-clip: content-box;
+}
+
+/* page1 */
+
+.div {
+    margin: 12px;
+    border: 3px solid black;
+    font-size: 22px;
+    text-align: center;
+    height: 100px;
+}
+
+#header {
+    background-color: rgb(248, 123, 114);
+}
+
+#sidebar {
+    background-color: rgb(255, 68, 0);
+    width: 30%;
+    float: right;
+    height: 200px;
+    margin-top: 0px;
+}
+
+#main {
+    background-color: rgb(234, 160, 32);
+    height: 200px;
+    margin-right: 33%;
+
+}
+
+#footer {
+    background-color: rgb(250, 134, 92);
+}
+
+/* page2 */
+
+.div4 {
+    margin: 12px;
+    border: 3px solid black;
+    font-size: 22px;
+    text-align: center;
+    height: 100px;
+}
+
+#header2 {
+    background-color: rgb(255, 115, 105);
+}
+
+#sidebar-left {
+    background-color: rgb(255, 68, 0);
+    width: 150px;
+    float: left;
+    height: 200px;
+}
+
+#sidebar-right {
+    background-color: rgb(255, 95, 36);
+    width: 150px;
+    float: right;
+    height: 200px;
+}
+
+#main2 {
+    background-color: rgb(234, 150, 32);
+    height: 200px;
+    margin-right: 170px;
+    margin-left: 170px;
+    margin-top: 24px;
+
+}
+
+#footer2 {
+    background-color: rgb(250, 134, 92);
+}
+
+#content {
+    background-color: rgb(125, 158, 6);
+    margin-left: 150px;
+    margin-top: 39px;
+    height: 80px;
+}
+
+#menu {
+    background-color: rgb(218, 241, 7);
+    float: left;
+    width: 120px;
+    height: 80px;
+}
