@@ -13,6 +13,9 @@ div {
     background-color: rgb(245, 109, 60);
     float: right;
     width: 150px;
+    height: 200px;
+    margin: 0;
+    margin-right: 10px;
 }
 
 #main {
@@ -35,4 +38,14 @@ div {
 
 #footer {
     background-color: rgb(245, 110, 110);
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer {
+    text-align: center;
+
 }
