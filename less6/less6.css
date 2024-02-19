@@ -79,6 +79,8 @@
     flex-direction: row;
 }
 
+
+
 .flex-warp-rever {
     display: flex;
     border: 2px solid black;
@@ -88,7 +90,9 @@
     flex-direction: row-reverse;
 }
 
+
 .flow {
+
     display: flex;
     border: 2px solid black;
     width: 20%;
@@ -97,9 +101,10 @@
 
 }
 
+
 .order {
     display: flex;
-    flex-flow: nowrap
+    flex-flow: nowrap;
 }
 
 .group1,
@@ -113,6 +118,6 @@
     order: -1;
 }
 
-.group2 {
-    order: 1;
+.group1 {
+    order: -1;
 }
