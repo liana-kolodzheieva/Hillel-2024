@@ -1,0 +1,77 @@
+.header {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(235, 235, 177, .6);
+    position: absolute;
+    left: 10%;
+    top: 300px;
+}
+
+.outher {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    background-color: rgba(186, 186, 90, 0.6);
+    left: 100px;
+    top: 50px;
+}
+
+.inner {
+    position: absolute;
+    background-color: rgba(97, 97, 35, 0.6);
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    top: 50px;
+}
+
+.outher1 {
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background-color: rgba(186, 186, 90, 0.6);
+    left: 600px;
+    top: 100px;
+}
+
+.inner1 {
+    position: absolute;
+    background-color: rgba(97, 97, 35, 0.6);
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    top: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border: 2px solid rgb(226, 226, 226);
+    top: 200px;
+    left: 60%;
+    background-color: rgb(235, 235, 177, .6);
+}
+
+.block1 {
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    top: 20px;
+    left: 30px;
+    position: absolute;
+}
+
+.block2 {
+    background-color: blueviolet;
+    height: 80px;
+    width: 80px;
+    top: 80px;
+    left: 50px;
+    position: absolute;
+}

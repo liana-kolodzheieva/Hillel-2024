@@ -1,0 +1,118 @@
+.flex-container {
+    display: flex;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.flex-item {
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    color: white;
+
+}
+
+.inline-flex-container {
+    display: inline-flex;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
+
+.color1 {
+    background-color: bisque;
+}
+
+.color2 {
+    background-color: aquamarine;
+}
+
+.color3 {
+    background-color: rgb(189, 171, 145);
+}
+
+/*  */
+
+.color4 {
+    background-color: blue;
+}
+
+.color5 {
+    background-color: blueviolet;
+}
+
+.flex-direction {
+    display: flex;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-rewers {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-rever {
+    flex-direction: column-reverse;
+}
+
+.flex {
+    font-size: 22px;
+    padding: 20px;
+    opacity: .8;
+}
+
+.flex-warp {
+    display: flex;
+    border: 2px solid black;
+    width: 20%;
+    height: 300px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-warp-rever {
+    display: flex;
+    border: 2px solid black;
+    width: 20%;
+    height: 300px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.flow {
+    display: flex;
+    border: 2px solid black;
+    width: 20%;
+    height: 300px;
+    flex-flow: row wrap;
+
+}
+
+.order {
+    display: flex;
+    flex-flow: nowrap
+}
+
+.group1,
+.group2 {
+    font-size: 22px;
+    padding: 10px;
+    opacity: 1;
+}
+
+.group1 {
+    order: -1;
+}
+
+.group2 {
+    order: 1;
+}
