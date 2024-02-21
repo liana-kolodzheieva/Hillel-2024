@@ -1,3 +1,7 @@
+body {
+    display: flex;
+}
+
 div {
     background-color: violet;
     width: 100px;
@@ -6,9 +10,21 @@ div {
     padding: 5px;
     box-sizing: border-box;
     border: 2px solid black;
-    display: inline-block;
+
 }
-/* 
+
+/* rotate */
+
 .rotate {
-    transform: rotate(-56deg);
-} */
+    transform: rotate(25deg);
+}
+
+/* scale */
+
+.double {
+    transform: scale(2);
+}
+
+.half {
+    transform: scale(0.5);
+}
