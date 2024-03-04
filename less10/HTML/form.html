@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/form.css">
+</head>
+
+<body>
+    <div>
+        <div>
+            <form action="form.html" method="post" autocomplete="off">
+                <input type="text" name="login">
+                <input type="password" name="password">
+                <input type="submit" value="Увійти">
+                <input type="reset" value="Стерди дані форми">
+                <button type="menu">форми</button>
+            </form>
+        </div>
+        <div>
+            <form>
+                <p>
+                    <input type="text" name="search">
+                    <input class="img" type="image" src="../PHOTO/Image20240222183330.png" alt="submit">
+                </p>
+            </form>
+        </div>
+        <div>
+            <form>
+                <div>
+                    <input type="text" name="phone-number" placeholder="введіть номер телефону" size="20" maxlength="10"
+                        value="+380661190957">
+                </div>
+                <p>
+                    <input type="text" name="name" placeholder="Введіть ім'я" size="18" disabled value="Name Ok">
+                </p>
+                <p>
+                    <button type="submit">Надіслати</button>
+                    <button type="reset">Oчистка</button>
+                </p>
+            </form>
+
+            <div>
+                <form>
+                    <p>
+                        <input type="text" list="phoneList" name="code-phone" placeholder="Оберіть код країни">
+                    </p>
+                    <p>
+                        <input type="submit">
+                    </p>
+                </form>
+                <datalist id="phoneList">
+                    <option value="+0330">Gr</option>
+                    <option value="+38">Ua</option>
+                </datalist>
+            </div>
+        </div>
+        <div>
+            <form>
+                <label for="searchName">Пошук речей</label>
+                <input type="search" name="search" id="searchName">
+                <input type="submit" name="search" value="пошук">
+                <br>
+                0<input type="range" step="1" min="-100" max="100" value="50" id="price" name="price">100
+            </form>
+        </div>
+    </div>
+    <a href="../../index.html">Вихід</a>
+</body>
+
+</html>

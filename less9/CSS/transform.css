@@ -1,0 +1,125 @@
+.conteiner {
+    padding: 2px;
+    margin: 5%;
+    margin-top: 10%;
+    margin-left: 2px;
+    display: flex;
+}
+
+.example {
+    background-color: violet;
+    width: 100px;
+    height: 110px;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+
+/* rotate */
+
+.rotate {
+    transform: rotate(25deg);
+}
+
+/* scale */
+
+.double {
+    transform: scale(2);
+}
+
+.half {
+    transform: scale(0.5);
+}
+
+.scale {
+    transform: scale(2, 0.5);
+    /* розтягуєтся по х та y */
+}
+
+.bord {
+    width: 260px;
+    height: 270px;
+    border: 3px solid brown;
+    position: absolute;
+    top: 5%;
+    text-align: center;
+}
+
+.rotate-text {
+    margin-top: 10px;
+}
+
+.bord2 {
+    width: 240px;
+    height: 270px;
+    border: 3px solid brown;
+    position: absolute;
+    top: 5%;
+    right: 59.7%;
+    text-align: center;
+}
+
+.bord3 {
+    width: 140px;
+    top: 5%;
+    height: 270px;
+    border: 3px solid brown;
+    position: absolute;
+    text-align: center;
+    left: 40.4%;
+}
+
+.example1 {
+    width: 40px;
+    height: 110px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.scale-mirX {
+    transform: scaleX(-1);
+}
+
+.scale-mirY {
+    transform: scaleY(-1);
+}
+
+.translate {
+    transform: translate(-25px, -10px);
+}
+
+.skew {
+    transform: skew(35deg, 0);
+}
+
+.bord4 {
+    width: 190px;
+    top: 5%;
+    height: 270px;
+    border: 3px solid brown;
+    position: absolute;
+    text-align: center;
+    left: 51.8%;
+}
+
+.bord5 {
+    width: 190px;
+    top: 5%;
+    height: 270px;
+    border: 3px solid brown;
+    position: absolute;
+    text-align: center;
+    left: 67.2%;
+}
+
+.bord6 {
+    width: 190px;
+    top: 5%;
+    height: 270px;
+    border: 3px solid brown;
+    position: absolute;
+    text-align: center;
+    left: 82.5%;
+}
