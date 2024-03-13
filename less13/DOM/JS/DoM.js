@@ -31,11 +31,44 @@
 
 /*========== EventListner =========== */
 
-const btn = document.querySelector('.btn');
-btn.addEventListener('click', (e) => {
+// const btn = document.querySelector('.btn');
+// btn.addEventListener('click', (e) => {
+//    e.preventDefault();
+//    console.log('click');
+//    console.log(e.target);
+//    document.querySelector('#my-form').style.background = '#ccc';
+//    document.querySelector('body').classList.add('bg-dark');
+//    document.querySelector('.items').lastElementChild.innerHTML = '<h2>Item3 Change</h2>'
+// });
+
+const myForm = document.querySelector('#my-form');
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const msg = document.querySelector('.msg');
+const userList = document.querySelector('#users');
+
+myForm.addEventListener('sumbit', onSubmit);
+function onSubmit(e) {
    e.preventDefault();
-   console.log('click');
-   console.log(e.target);
-   document.querySelector('#my-form').style.background = '#ccc';
-   document.querySelector('body').classList.add('bg-dark');
-})
+   // console.log(nameInput.value);
+   if (nameInput.value === '' || emailInput.value === '') {
+      // alert('Пуста форма!');
+      msg.classList.add('error');
+      msg.innerHTML = 'Пуста форма!';
+
+      setInterval(() => {
+         msg.classList.remove('error');
+         msg.innerHTML = '';
+      }, 1500);
+   } else {
+      // console.log(nameInput.value);
+
+      const li = document.createElement('li');
+      li.appendChild(document.createTextNode(`${nameInput.value}: ${emailInput.value}`));
+
+      userList.appendChild(li);
+
+      nameInput.value = '';
+      emailInput.value = '';
+   }
+}
