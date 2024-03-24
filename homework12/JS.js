@@ -1,19 +1,19 @@
-$(document).ready(function() {
-    // Зміна фонового кольору при наведенні на input
-    $('input[type="text"]').focus(function() {
-        $(this).addClass('purple-bg');
-    }).blur(function() {
-        $(this).removeClass('purple-bg');
-    });
 
-    // Виведення повідомлення у консоль при зміні значення селекту
-    $('#gender').change(function() {
+$(document).ready(function () {
+
+    $('input[type="text"]').focus(function() {
+    $(this).css('background-color', 'purple');
+}).blur(function() {
+    $(this).css('background-color', 'white');
+});
+
+    $('#gender').change(function () {
         var selectedOption = $(this).val();
         console.log('Зміна в селекті: ' + selectedOption);
     });
 
-    // Відстеження події submit та виведення на сторінку даних з форми
-    $('#form').submit(function(event) {
+
+    $('#form').submit(function (event) {
         event.preventDefault();
         var formData = {
             name: $('#name').val(),
@@ -21,10 +21,10 @@ $(document).ready(function() {
             gender: $('#gender').val()
         };
         var dataList = '<ul>';
-        $.each(formData, function(key, value) {
+        $.each(formData, function (key, value) {
             dataList += '<li>' + key + ': ' + value + '</li>';
         });
         dataList += '</ul>';
         $('body').append(dataList);
     });
-});
+}); 
