@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 200px;
+}
+
+.compare-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.compare-img img {
+    display: block;
+    vertical-align: middle;
+}
+
+.slaider {
+    position: absolute;
+    z-index: 10;
+    cursor: ew-resize;
+    width: 40px;
+    height: 40px;
+    background-color: darkcyan;
+    opacity: 0.7;
+    border-radius: 50%;
+}
