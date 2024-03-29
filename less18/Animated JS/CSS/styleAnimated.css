@@ -1,0 +1,83 @@
+.nunito-header {
+   font-family: "Nunito", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+}
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+header{
+   text-align: center;
+   font-size: 2.5rem;
+   padding: 3rem 0;
+   background-color: #ff99cc;
+}
+.counter-container{
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: row;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 3rem 0;
+}
+
+.social{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem 0;
+}
+
+.social-icon{
+   font-size: 2rem;
+   color: #fff;
+   border-radius: 50%;
+}
+.social-icon i{
+   padding: 0.7rem;
+   border-radius: 50%;
+}
+
+.fa-square-youtube{
+   background: #c4202b;
+}
+
+.fa-facebook{
+   background: #3b5998;
+}
+
+.fa-linkedin{
+   background: #0077b5;
+}
+
+.fa-instagram{
+      background: #88300e;
+}
+
+.social p{
+   font-size: 1.5rem;
+   font-family: sans-serif;
+   padding: 10px 0;
+}
+
+.social h3{
+   font-size: 2.5rem;
+   font-family: "Nunito", sans-serif;
+   font-weight: 700;
+   padding: 10px 0;
+}
+
+@media (max-width: 1024px){
+   header{
+      font-size: 1.5rem;
+   }
+   .counter-container{
+      flex-direction: column;
+   }
+}
