@@ -1,0 +1,86 @@
+/* Общие стили */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: sans-serif;
+}
+
+/* Стили для фонового контейнера */
+.background {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.5);
+   padding: 20px;
+   color: #fff;
+   z-index: 9999;
+}
+
+/* Стили для контента */
+.content {
+   max-width: 800px;
+   /* Максимальная ширина контента */
+   margin: 0 auto;
+   /* Центрирование контента */
+   position: relative;
+   /* Относительное позиционирование для размещения над часами */
+   z-index: 10000;
+   /* Устанавливаем высокий z-index для отображения над часами */
+}
+
+.content h1 {
+   margin-bottom: 10px;
+   /* Отступ снизу для заголовка */
+}
+
+.content p {
+   margin-bottom: 20px;
+   /* Отступ снизу для абзаца */
+}
+
+/* Стили для кнопки */
+#myBtn {
+   position: fixed;
+   /* Фиксированное позиционирование */
+   bottom: 20px;
+   right: 20px;
+   /* Расположение кнопки в правом нижнем углу */
+   width: 200px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+   z-index: 9999;
+}
+
+#myBtn:hover {
+   background: #ddd;
+   color: black;
+}
+
+/* Стили для часов */
+.clock {
+   position: fixed;
+   bottom: 50px;
+   /* Чуть выше кнопки */
+   left: 20px;
+   font-family: sans-serif;
+   color: #fff;
+   z-index: 9999;
+}
+
+.time {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.date-time {
+   font-size: 14px;
+}
