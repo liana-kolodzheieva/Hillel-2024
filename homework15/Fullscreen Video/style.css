@@ -74,6 +74,8 @@ body {
    font-family: sans-serif;
    color: #fff;
    z-index: 9999;
+   padding: 19px;
+   border: 2px solid rgb(255, 255, 255);
 }
 
 .time {
