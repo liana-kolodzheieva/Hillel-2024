@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
+
+
 
 html {
     margin: 0;
@@ -16,9 +22,10 @@ html {
     padding: 1%;
     border-radius: 10%;
     background: #377692;
-    background: -webkit-linear-gradient(top, #377692, #27627b);
+    /* background: -webkit-linear-gradient(top, #1f2224, #27627b); */
     /* height: 90%;
     width: 40%; */
+    background-color: rgb(0, 0, 0, 0.7);
     color: aliceblue;
 
 }
@@ -34,7 +41,9 @@ p {
     padding: 0;
     padding-bottom: 3%;
     text-align: center;
-
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
 /* input {
@@ -69,6 +78,7 @@ p {
     border-radius: 5px;
     border: none;
     height: 30px;
+    margin-top: 4px;
 }
 
 .line {
@@ -85,21 +95,26 @@ p {
 }
 
 #output {
-    border: #27627b solid 2px;
+    /* border: #27627b solid 2px; */
     /* float: right; */
     width: 300px;
-    height: 200px;
+    height: 500px;
     /* margin: auto; */
     margin: 5%;
     padding: 1%;
     border-radius: 10%;
+    background-color: rgb(0, 0, 0, 0.7);
     word-wrap: break-word;
+    color: aliceblue;
 
 
 }
 
 #container {
     display: flex;
+    background-image: url(pexels-photo-20755851.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -107,3 +122,13 @@ p {
     /* display: flex; 
     word-wrap: break-word;
 } */
+
+h2 {
+    text-align: center;
+}
+
+.checkbo {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
